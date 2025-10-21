@@ -1,0 +1,743 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Sun Jun 15 2025 03:58:16 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="684c47a090599268b47fb250" data-wf-site="684c45259bb9859b41a66eec">
+<head>
+  <meta charset="utf-8">
+  <title>Ecommerce Development &amp; Automation | RavencoreX</title>
+  <meta content="We build and optimize ecommerce sites using Shopify and Tiendanube. RavencoreX helps you sell more with seamless integrations, analytics and automation." name="description">
+  <meta content="Ecommerce Experts | Shopify &amp; Tiendanube Development by RavencoreX" property="og:title">
+  <meta content="Boost your online store with RavencoreX. We create scalable ecommerce solutions integrated with ads, analytics, and automation to drive real sales." property="og:description">
+  <meta content="Ecommerce Experts | Shopify &amp; Tiendanube Development by RavencoreX" property="twitter:title">
+  <meta content="Boost your online store with RavencoreX. We create scalable ecommerce solutions integrated with ads, analytics, and automation to drive real sales." property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/ravencorex-6ba78a.webflow.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.jpg" rel="apple-touch-icon">
+  <script src="https://www.google.com/recaptcha/api.js" type="text/javascript"></script><!--  Keep this css code to improve the font quality -->
+  <style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+}
+</style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="global-styles">
+      <div class="style-overrides w-embed">
+        <style>
+/* Ensure all elements inherit the color from its parent */
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-nav-brand,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-slider-arrow-left,
+.w-slider-arrow-right,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+/* Remove default Webflow chevron from form select */
+select{
+  -webkit-appearance:none;
+}
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none; 
+}
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+</style>
+      </div>
+      <div class="fonts w-embed">
+        <style>@import url('https://fonts.googleapis.com/css?family=Quicksand:400')</style>
+        <style>@import url('https://fonts.googleapis.com/css?family=Roboto:400,500')</style>
+      </div>
+      <div class="color-schemes w-embed">
+        <style>
+.color-scheme-1 {}
+  .color-scheme-2 {
+    --color-scheme-1--text: var(--color-scheme-2--text);
+    --color-scheme-1--background: var(--color-scheme-2--background);
+    --color-scheme-1--foreground: var(--color-scheme-2--foreground);
+    --color-scheme-1--border: var(--color-scheme-2--border);
+    --color-scheme-1--accent: var(--color-scheme-2--accent);
+  }
+.w-slider-dot {
+  background-color: var(--color-scheme-1--text);
+  opacity: 0.20;
+}
+.w-slider-dot.w-active {
+  background-color: var(--color-scheme-1--text);
+  opacity: 1;
+}
+/* Override .w-slider-nav-invert styles */
+.w-slider-nav-invert .w-slider-dot {
+  background-color: var(--color-scheme-1--text) !important;
+  opacity: 0.20 !important;
+}
+.w-slider-nav-invert .w-slider-dot.w-active {
+  background-color: var(--color-scheme-1--text) !important;
+  opacity: 1 !important;
+}
+</style>
+      </div>
+    </div>
+    <div data-collapse="medium" data-animation="default" data-duration="400" fs-scrolldisable-element="smart-nav" data-easing="ease" data-easing2="ease" role="banner" class="navbar1_component color-scheme-1 w-nav">
+      <div class="navbar1_container">
+        <a href="#" class="navbar1_logo-link w-nav-brand"><img sizes="157.53125px" height="32px" alt="" src="images/relume-172645.png" loading="eager" srcset="images/relume-172645-p-500.png 500w, images/relume-172645-p-800.png 800w, images/relume-172645-p-1080.png 1080w, images/relume-172645-p-1600.png 1600w, images/relume-172645.png 2560w" class="navbar1_logo"></a>
+        <nav role="navigation" class="navbar1_menu is-page-height-tablet w-nav-menu">
+          <div class="navbar1_menu-links">
+            <a href="index.html" class="navbar1_link w-nav-link">Home</a>
+            <a href="about-us.html" class="navbar1_link w-nav-link">About Us</a>
+            <a href="cloud-solutions-devops.html" class="navbar1_link w-nav-link">Cloud Computing</a>
+            <a href="data-analytics-business-intelligence.html" class="navbar1_link w-nav-link">Business Intelligence</a>
+            <a href="ecommerce-development-optimization.html" aria-current="page" class="navbar1_link w-nav-link w--current">Ecommerce</a>
+            <a href="web-design.html" class="navbar1_link w-nav-link">Web Design</a>
+          </div>
+          <div class="navbar1_menu-buttons">
+            <a href="contact-page.html" class="button is-small w-button">Let&#x27;s Talk</a>
+          </div>
+        </nav>
+        <div class="navbar1_menu-button w-nav-button">
+          <div class="menu-icon1">
+            <div class="menu-icon1_line-top"></div>
+            <div class="menu-icon1_line-middle">
+              <div class="menu-icon1_line-middle-inner"></div>
+            </div>
+            <div class="menu-icon1_line-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main-wrapper">
+      <header class="section_header7 text-color-white">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="header7_content">
+              <div class="padding-section-large">
+                <div class="max-width-medium">
+                  <div class="margin-bottom margin-small">
+                    <h1 class="heading-style-h1">Transform Your Ecommerce with Data-Driven Insights</h1>
+                  </div>
+                  <p class="text-size-medium">Unlock the full potential of your online store by leveraging data analytics, SEO, and targeted advertising. Our expertise with Shopify and Tiendanube ensures that your ecommerce platform is optimized for maximum sales growth.</p>
+                  <div class="margin-top margin-medium">
+                    <div class="button-group">
+                      <a href="contact-page.html" class="button is-alternate w-button">Let&#x27;s Talk</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header7_background-video-wrapper">
+          <div class="video-overlay-layer"></div>
+          <div data-poster-url="videos/ecommerce_3-720-poster-00001.jpg" data-video-urls="videos/ecommerce_3-720-transcode.mp4,videos/ecommerce_3-720-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-beta-bgvideo-upgrade="false" class="header7_background-video w-background-video w-background-video-atom"><video id="1690c9cb-d571-308a-3c15-816cfade1c2a-video" autoplay="" loop="" style="background-image:url(&quot;videos/ecommerce_3-720-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+              <source src="videos/ecommerce_3-720-transcode.mp4" data-wf-ignore="true">
+              <source src="videos/ecommerce_3-720-transcode.webm" data-wf-ignore="true">
+            </video></div>
+        </div>
+      </header>
+      <section class="section_layout201 color-scheme-1">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout201_component">
+                <div class="w-layout-grid layout201_content">
+                  <div class="layout201_image-wrapper"><img sizes="100vw" srcset="images/ecommerce2-p-500.png 500w, images/ecommerce2-p-800.png 800w, images/ecommerce2.png 1024w" alt="" src="images/ecommerce2.png" loading="lazy" class="layout201_image"></div>
+                  <div id="w-node-_1690c9cb-d571-308a-3c15-816cfade1c33-b47fb250" class="layout201_content-right">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-style-tagline">Optimize</div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2">Enhancing Ecommerce Performance with Data Analytics</h2>
+                    </div>
+                    <div class="margin-bottom margin-medium">
+                      <p class="text-size-medium">Data analytics empowers ecommerce businesses by providing insights into customer behavior and sales trends. By leveraging these insights, we can tailor strategies that drive conversions and maximize revenue.</p>
+                    </div>
+                    <div class="w-layout-grid layout201_item-list">
+                      <div class="layout201_item">
+                        <div class="margin-bottom margin-xsmall">
+                          <div class="layout201_item-icon-wrapper">
+                            <div class="icon-1x1-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 -960 960 960">
+                                <path fill="currentColor" d="M401.61-296.65q108.78 0 185.76-76.61 76.98-76.6 76.98-185.95 0-108.51-77.01-184.53t-185.61-76.02q-108.66 0-184.45 76.05-75.8 76.05-75.8 184.38 0 109.47 75.8 186.07 75.79 76.61 184.33 76.61Zm1.08-153.74q-13.73 0-22.83-9.38-9.1-9.37-9.1-23.01v-200.31q0-13.64 9.27-23.01 9.28-9.38 23.01-9.38 13.74 0 23 9.38 9.26 9.37 9.26 23.01v200.31q0 13.64-9.43 23.01-9.44 9.38-23.18 9.38Zm-145.96 0q-13.73 0-22.95-9.38-9.21-9.37-9.21-23.01v-116.83q0-13.64 9.43-23.01 9.44-9.38 23.18-9.38 13.73 0 22.95 9.38 9.22 9.37 9.22 23.01v116.83q0 13.64-9.44 23.01-9.44 9.38-23.18 9.38Zm292.16 0q-13.74 0-22.96-9.38-9.21-9.37-9.21-23.01v-75.83q0-13.54 9.44-22.84 9.44-9.31 23.17-9.31 13.74 0 22.95 9.31 9.22 9.3 9.22 22.84v75.83q0 13.64-9.44 23.01-9.44 9.38-23.17 9.38ZM401.62-230.2q-136.29 0-231.45-95.94-95.15-95.94-95.15-232.82t95-232.07q95-95.19 231.88-95.19t232.89 95.4q96.01 95.39 96.01 231.49 0 59.23-19.38 111.94t-54.38 95.46l205.31 205.3q10.19 10.2 9.81 23.87-.38 13.67-10.06 23.87-9.45 10.19-23.87 10.19-14.43 0-24.62-10.19L609.3-304.2q-42.95 35-95.79 54.5t-111.89 19.5Z"></path>
+                              </svg></div>
+                          </div>
+                        </div>
+                        <div class="margin-bottom margin-xsmall">
+                          <h3 class="heading-style-h6">Customer Insights</h3>
+                        </div>
+                        <p>Understand your customers&#x27; preferences to enhance their shopping experience and boost sales.</p>
+                      </div>
+                      <div class="layout201_item">
+                        <div class="margin-bottom margin-xsmall">
+                          <div class="layout201_item-icon-wrapper">
+                            <div class="icon-1x1-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 -960 960 960">
+                                <path fill="currentColor" d="M117.56-480q0 65.43 21.86 126.35 21.86 60.91 64.06 108.58 8.48 9.2 8.86 20.66.38 11.45-8.34 20.17-8.72 8.72-20.29 7.84-11.58-.88-20.06-9.84-47.43-54.91-74.51-125.04Q62.06-401.41 62.06-480t27.08-148.72q27.08-70.13 74.51-125.04 8.48-8.96 20.06-9.96 11.57-1 20.29 7.72 8.72 8.72 8.34 20.29-.38 11.58-8.86 20.78-42.2 47.67-64.06 108.58-21.86 60.92-21.86 126.35Zm118.14 0q0 39.15 14 80.05 14 40.91 39.76 70.91 7.47 9.19 8.24 20.39.76 11.19-7.72 19.67-8.72 8.72-20.3 7.84-11.57-.88-19.23-9.99-31.52-39.1-50.77-87.87-19.25-48.76-19.25-100.98 0-52.22 19.25-101t50.77-87.89q7.66-9.11 18.73-9.49 11.08-.38 19.8 8.34 8.48 8.48 8.22 19.17-.27 10.7-7.74 19.65-25.76 30.24-39.76 71.15-14 40.9-14 80.05Zm205.32 183.11q0-21.48-15.47-44.08-15.46-22.6-33.56-46.31-18.1-23.72-33.46-49.82t-15.36-55.05q0-56.66 40.21-96.86 40.21-40.21 96.63-40.21 56.66 0 96.74 40.21 40.08 40.2 40.08 96.86 0 28.95-15.36 55.05-15.36 26.1-33.46 49.82-18.1 23.71-33.46 46.31-15.35 22.6-15.35 44.08h-78.18Zm-1.98 51.91v-10.48h82.16v10.48q0 17.28-11.98 29.12t-29.25 11.84q-17.26 0-29.09-11.84-11.84-11.84-11.84-29.12ZM724.54-480q0-39.15-14-80.05-14-40.91-39.76-71.15-7.48-8.89-8.36-20-.88-11.1 7.72-19.58 8.84-8.72 20.53-7.96 11.7.76 19.42 9.96 31.24 38.95 50.59 87.74 19.36 48.8 19.36 101.04 0 52.24-19.36 101.04-19.35 48.79-50.59 87.74-7.72 9.2-18.92 9.46-11.19.26-20.03-8.46-8.6-8.48-8.22-19.05.38-10.58 7.86-19.77 25.76-30 39.76-70.91 14-40.9 14-80.05Zm118.13 0q0-65.43-21.73-126.11-21.74-60.67-63.7-108.59-8.74-9.16-9.23-20.75-.49-11.59 8.23-20.31 8.72-8.72 20.41-7.84 11.7.88 20.18 9.84 47.19 54.91 74.39 125.04 27.19 70.13 27.19 148.72t-27.19 148.72q-27.2 70.13-74.39 125.04-8.48 8.96-20.3 9.96-11.81 1-20.41-7.72-8.6-8.72-8.1-20.41.5-11.7 9.22-20.89 41.96-47.92 63.7-108.59 21.73-60.68 21.73-126.11Z"></path>
+                              </svg></div>
+                          </div>
+                        </div>
+                        <div class="margin-bottom margin-xsmall">
+                          <h3 class="heading-style-h6">Sales Forecasting</h3>
+                        </div>
+                        <p>Predict future sales trends to make informed inventory and marketing decisions.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout26 color-scheme-1">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout26_component">
+                <div class="w-layout-grid layout26_content">
+                  <div class="layout26_content-left">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-style-tagline">Optimize</div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2">Unlock Your Ecommerce Potential with Data</h2>
+                    </div>
+                    <div class="margin-bottom margin-medium">
+                      <p class="text-size-medium">Ecommerce optimization leverages data analytics to enhance sales performance and customer engagement. By utilizing targeted strategies like SEO and AdWords, we help you maximize your return on investment.</p>
+                    </div>
+                    <div class="w-layout-grid layout26_item-list">
+                      <div class="layout26_text-wrapper">
+                        <div class="margin-bottom margin-xxsmall">
+                          <div class="heading-style-h2">50%</div>
+                        </div>
+                        <p>Increase sales through data-driven strategies.</p>
+                      </div>
+                      <div class="layout26_text-wrapper">
+                        <div class="margin-bottom margin-xxsmall">
+                          <div class="heading-style-h2">50%</div>
+                        </div>
+                        <p>Enhance customer retention with personalized experiences.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="layout26_lightbox w-inline-block w-lightbox">
+                    <div class="code-embed w-embed"><video autoplay="" muted="" loop="" playsinline="" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        <source src="https://ravencorex.com/assets/v2/looker_3-720p.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <script type="application/json" class="w-json">{
+  "items": [
+    {
+      "url": "https://www.youtube.com/watch?v=8DKLYsikxTs",
+      "originalUrl": "https://www.youtube.com/watch?v=8DKLYsikxTs",
+      "width": 940,
+      "height": 528,
+      "thumbnailUrl": "https://i.ytimg.com/vi/8DKLYsikxTs/hqdefault.jpg",
+      "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F8DKLYsikxTs%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8DKLYsikxTs&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F8DKLYsikxTs%2Fhqdefault.jpg&key=c4e54deccf4d4ec997a64902e9a30300&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
+      "type": "video"
+    }
+  ],
+  "group": ""
+}</script>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout209 color-scheme-1">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout209_component">
+                <div class="w-layout-grid layout209_content">
+                  <div class="layout209_image-wrapper">
+                    <div class="code-embed w-embed"><video autoplay="" muted="" loop="" playsinline="" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        <source src="https://ravencorex.com/assets/v2/sales_growth_1-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                  </div>
+                  <div id="w-node-_1690c9cb-d571-308a-3c15-816cfade1c7a-b47fb250" class="layout209_content-right">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h3">Boost Your Ecommerce Success with Strategic Meta and Google Ads</h2>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <p class="text-size-medium">In today&#x27;s competitive market, leveraging Meta Ads and Google Ads is essential for enhancing your ecommerce visibility. These powerful tools drive targeted traffic, ensuring your products reach the right audience.</p>
+                    </div>
+                    <div class="layout209_item-list">
+                      <div id="w-node-_1690c9cb-d571-308a-3c15-816cfade1c82-b47fb250" class="layout209_item">
+                        <div class="layout209_item-icon-wrapper">
+                          <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 -960 960 960">
+                              <path fill="currentColor" d="M480.12-330q70.88 0 120.38-49.62t49.5-120.5q0-70.88-49.62-120.38T479.88-670Q409-670 359.5-620.38T310-499.88q0 70.88 49.62 120.38t120.5 49.5Zm-.3-61.83q-45.15 0-76.57-31.6-31.42-31.6-31.42-76.75t31.6-76.57q31.6-31.42 76.75-31.42t76.57 31.6q31.42 31.6 31.42 76.75t-31.6 76.57q-31.6 31.42-76.75 31.42ZM480-194.5q-136.2 0-247.76-76.28T53.41-466.17q-4.48-8.04-6.71-16.57-2.24-8.53-2.24-17.32 0-8.79 2.24-17.26 2.23-8.48 6.71-16.51 67.27-119.11 178.83-195.39Q343.8-805.5 480-805.5t247.76 76.28q111.56 76.28 178.83 195.39 4.48 8.04 6.71 16.57 2.24 8.53 2.24 17.32 0 8.79-2.24 17.26-2.23 8.48-6.71 16.51-67.27 119.11-178.83 195.39Q616.2-194.5 480-194.5Zm0-305.5Zm-.15 240q121.15 0 222.41-65.5Q803.52-391 856.52-500q-53-109-154.11-174.5Q601.29-740 480.15-740 359-740 257.74-674.5 156.48-609 102.48-500q54 109 155.11 174.5Q358.71-260 479.85-260Z"></path>
+                            </svg></div>
+                        </div>
+                        <div class="layout209_item-text-wrapper">
+                          <p>Increase your online visibility effectively.</p>
+                        </div>
+                      </div>
+                      <div id="w-node-_1690c9cb-d571-308a-3c15-816cfade1c88-b47fb250" class="layout209_item">
+                        <div class="layout209_item-icon-wrapper">
+                          <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 -960 960 960">
+                              <path fill="currentColor" d="M466.43-738.63h-94q-12.75 0-21.37-8.68-8.63-8.67-8.63-21.5 0-12.82 8.63-21.32 8.62-8.5 21.37-8.5h94v-93q0-12.75 8.68-21.38 8.68-8.62 21.5-8.62t21.32 8.62q8.5 8.63 8.5 21.38v93h93q12.75 0 21.38 8.67 8.62 8.68 8.62 21.5 0 12.83-8.62 21.33-8.63 8.5-21.38 8.5h-93v93q0 12.75-8.67 21.37-8.68 8.63-21.5 8.63-12.83 0-21.33-8.63-8.5-8.62-8.5-21.37v-93ZM289.79-77.37Q260-77.37 239-98.58t-21-51q0-29.79 21.21-50.79t51-21q29.79 0 50.79 21.21 21 21.22 21 51 0 29.79-21.21 50.79t-51 21Zm404 0Q664-77.37 643-98.58t-21-51q0-29.79 21.21-50.79t51-21q29.79 0 50.79 21.21 21 21.22 21 51 0 29.79-21.21 50.79t-51 21Zm-555.46-740H92q-13.87 0-23.25-9.42-9.38-9.41-9.38-23.34 0-13.92 9.38-23.21 9.38-9.29 23.25-9.29h66.04q10.2 0 18.62 5.01 8.42 5 12.21 14.14L348.48-521.5h287.28l149.61-260.7q4.24-7.47 11.8-11.95 7.55-4.48 16.64-4.48 18.77 0 28.04 15.31 9.26 15.32.54 31.75L704.83-494.43q-11.48 19.47-29.51 31.45Q657.3-451 635.4-451H334.11l-54.33 101.37H736q13.87 0 23.25 9.42 9.38 9.41 9.38 23.34 0 13.92-9.38 23.21-9.38 9.29-23.25 9.29H284q-39.34 0-59.72-31.31-20.39-31.32-2.67-63.75L284.89-496 138.33-817.37Z"></path>
+                            </svg></div>
+                        </div>
+                        <div class="layout209_item-text-wrapper">
+                          <p>Drive targeted traffic to your ecommerce site.</p>
+                        </div>
+                      </div>
+                      <div id="w-node-_1690c9cb-d571-308a-3c15-816cfade1c8e-b47fb250" class="layout209_item">
+                        <div class="layout209_item-icon-wrapper">
+                          <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 -960 960 960">
+                              <path fill="currentColor" d="M61.43-127.37v55.94q0 14.42-9.87 24.24-9.87 9.82-24.37 9.82-14.49 0-24.19-9.82-9.7-9.82-9.7-24.24v-787.14q0-28.2 20.02-48.28 20.01-20.08 48.11-20.08h294.5q28.11 0 48.12 20.08 20.02 20.08 20.02 48.28v787.14q0 14.42-9.88 24.24-9.87 9.82-24.37 9.82-14.49 0-24.19-9.82-9.7-9.82-9.7-24.24v-55.94H61.43Zm716.59-201.78-104.89 94.77V-70q0 13.87-9.46 23.25-9.47 9.38-23.46 9.38-14 0-23.29-9.38T607.63-70v-220.83l91.28-82.54-18.8-132.93q-38.19 52.5-79.02 73.03t-87.83 25.77q-12.19 2-21.41-7.72-9.22-9.71-9.22-22.91t9.13-22.92q9.12-9.73 23.5-12.43 42.28-6.48 71.09-28.74 28.8-22.26 50.61-56.82l38.28-61.29q15.72-24.43 43.65-33.29 27.94-8.86 56.04 2.86l176.87 73.72q9.77 4.41 15.32 12.88 5.55 8.48 5.55 19.18V-427q0 13.87-9.41 23.25-9.42 9.38-23.34 9.38t-23.71-9.67q-9.8-9.67-9.8-23.96v-96.05l-99.61-45.02L916.52-76.48q3.24 15.2-6.45 27.15-9.69 11.96-27.3 11.96-11.76 0-20.43-6.67-8.68-6.66-11.08-17l-73.24-268.11ZM61.43-195.5h294.5v-663.07H61.43v663.07Zm113.18-265.78 82.23-46.25q7.44-4.19 7.44-12.16t-7.52-12.83l-82.15-46.2q-7.52-4.52-14.28-.19-6.76 4.32-6.76 12.71v92.4q0 8.39 6.76 12.71 6.76 4.33 14.28-.19ZM687.95-685.2q-31.41 0-53.5-22.01-22.1-22.02-22.1-53.43 0-31.4 22.02-53.73 22.01-22.33 53.42-22.33 31.4 0 53.61 22.3t22.21 53.6q0 31.41-22.13 53.51-22.13 22.09-53.53 22.09ZM61.43-195.5h294.5-294.5Z"></path>
+                            </svg></div>
+                        </div>
+                        <div class="layout209_item-text-wrapper">
+                          <p>Maximize sales through data-driven advertising strategies.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout83 color-scheme-1">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout83_component">
+                <div class="w-layout-grid layout83_content">
+                  <div class="layout83_content-left">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-style-tagline">Results</div>
+                    </div>
+                    <h2 class="heading-style-h2">Transforming Ecommerce Through Data-Driven Insights</h2>
+                  </div>
+                  <div class="layout83_content-right">
+                    <div class="margin-bottom margin-medium">
+                      <p class="text-size-medium">Our data analytics strategies have consistently boosted ecommerce sales. By leveraging tools like Adwords and SEO, we drive measurable results for our clients.</p>
+                    </div>
+                    <div class="w-layout-grid layout83_item-list">
+                      <div class="layout83_text-wrapper">
+                        <div class="margin-bottom margin-xxsmall">
+                          <div class="heading-style-h2">75%</div>
+                        </div>
+                        <p>Increase in average order value post-optimization.</p>
+                      </div>
+                      <div class="layout83_text-wrapper">
+                        <div class="margin-bottom margin-xxsmall">
+                          <div class="heading-style-h2">60%</div>
+                        </div>
+                        <p>Growth in website traffic through targeted marketing strategies.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_faq3 color-scheme-1">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="faq3_component">
+                <div class="w-layout-grid faq3_content">
+                  <div class="faq3_content-left">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2">FAQs</h2>
+                    </div>
+                    <p class="text-size-medium">Discover how we elevate your ecommerce business through data-driven strategies and insights.</p>
+                    <div class="margin-top margin-medium">
+                      <div class="button-group">
+                        <a href="contact-page.html" class="button is-secondary w-button">Contact</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="faq3_list">
+                    <div class="faq3_accordion">
+                      <div data-w-id="1690c9cb-d571-308a-3c15-816cfade1cc3" class="faq3_question">
+                        <div class="text-size-medium">How does data analytics help?</div>
+                        <div class="faq3_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="faq3_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>Data analytics identifies customer behavior patterns and preferences. By leveraging these insights, we optimize product listings and marketing strategies. This leads to increased engagement and higher conversion rates.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="faq3_accordion">
+                      <div data-w-id="1690c9cb-d571-308a-3c15-816cfade1ccd" class="faq3_question">
+                        <div class="text-size-medium">What is SEO?</div>
+                        <div class="faq3_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="faq3_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>SEO, or Search Engine Optimization, enhances your website&#x27;s visibility on search engines. It involves optimizing content and structure to attract organic traffic. Our approach ensures your ecommerce site ranks higher, driving more sales.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="faq3_accordion">
+                      <div data-w-id="1690c9cb-d571-308a-3c15-816cfade1cd7" class="faq3_question">
+                        <div class="text-size-medium">What are Meta Ads?</div>
+                        <div class="faq3_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="faq3_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>Meta Ads are advertisements that appear on platforms like Facebook and Instagram. They target specific audiences based on user behavior and demographics. This targeted approach maximizes your ad spend and boosts sales.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="faq3_accordion">
+                      <div data-w-id="1690c9cb-d571-308a-3c15-816cfade1ce1" class="faq3_question">
+                        <div class="text-size-medium">How do Adwords work?</div>
+                        <div class="faq3_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="faq3_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>Adwords allows businesses to create ads that appear on Google search results. You bid on keywords relevant to your products, ensuring visibility to potential customers. This strategy drives targeted traffic to your ecommerce site.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="faq3_accordion">
+                      <div data-w-id="1690c9cb-d571-308a-3c15-816cfade1ceb" class="faq3_question">
+                        <div class="text-size-medium">Can I track results?</div>
+                        <div class="faq3_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5303 20.8839C16.2374 21.1768 15.7626 21.1768 15.4697 20.8839L7.82318 13.2374C7.53029 12.9445 7.53029 12.4697 7.82318 12.1768L8.17674 11.8232C8.46963 11.5303 8.9445 11.5303 9.2374 11.8232L16 18.5858L22.7626 11.8232C23.0555 11.5303 23.5303 11.5303 23.8232 11.8232L24.1768 12.1768C24.4697 12.4697 24.4697 12.9445 24.1768 13.2374L16.5303 20.8839Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="faq3_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>Yes, we provide comprehensive tracking and reporting tools. You can monitor key metrics such as traffic, conversions, and sales. This data helps refine strategies for even better results.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_cta29 text-color-white">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="cta29_component">
+                <div class="text-align-center">
+                  <div class="max-width-large align-center">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2">Transform Your Ecommerce Success</h2>
+                    </div>
+                    <p class="text-size-medium">Unlock the full potential of your online store with our data-driven optimization strategies.</p>
+                    <div class="margin-top margin-medium">
+                      <div class="button-group is-center">
+                        <a href="contact-page.html" class="button is-alternate w-button">Let&#x27;s Talk</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cta29_background-video-wrapper">
+          <div class="video-overlay-layer"></div>
+          <div data-poster-url="videos/ravencorex-world-720p-poster-00001.jpg" data-video-urls="videos/ravencorex-world-720p-transcode.mp4,videos/ravencorex-world-720p-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-beta-bgvideo-upgrade="false" class="cta29_background-video w-background-video w-background-video-atom"><video id="1690c9cb-d571-308a-3c15-816cfade1d08-video" autoplay="" loop="" style="background-image:url(&quot;videos/ravencorex-world-720p-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+              <source src="videos/ravencorex-world-720p-transcode.mp4" data-wf-ignore="true">
+              <source src="videos/ravencorex-world-720p-transcode.webm" data-wf-ignore="true">
+            </video></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer1_component color-scheme-1">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-vertical padding-xxlarge">
+            <div class="padding-bottom padding-xxlarge">
+              <div class="w-layout-grid footer1_top-wrapper">
+                <div class="footer1_left-wrapper">
+                  <div class="margin-bottom margin-small">
+                    <a href="#" class="footer1_logo-link w-nav-brand"><img sizes="157.53125px" height="32px" alt="" src="images/relume-172645.png" loading="eager" srcset="images/relume-172645-p-500.png 500w, images/relume-172645-p-800.png 800w, images/relume-172645-p-1080.png 1080w, images/relume-172645-p-1600.png 1600w, images/relume-172645.png 2560w" class="footer1_logo"></a>
+                  </div>
+                  <div class="margin-bottom margin-small">
+                    <div>Subscribe to our newsletter for the latest updates on features and releases.</div>
+                  </div>
+                  <div class="footer1_form-block w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="footer1_form" data-wf-page-id="684c47a090599268b47fb250" data-wf-element-id="f899bbcf-a7be-61de-b3a9-ff9a9b9baec2"><input class="form_input w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your Email Here" type="email" id="email-2" required=""><input type="submit" data-wait="Please wait..." class="button is-secondary is-small w-button" value="Join"></form>
+                    <div class="text-size-tiny">By subscribing, you agree to our Privacy Policy and consent to receive updates.</div>
+                    <div class="form_message-success-wrapper w-form-done">
+                      <div class="form_message-success">
+                        <div>Thank you! We have received your submission.</div>
+                      </div>
+                    </div>
+                    <div class="form_message-error-wrapper w-form-fail">
+                      <div class="form_message-error">
+                        <div>Oops! There was an error submitting the form.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid footer1_menu-wrapper">
+                  <div class="footer1_link-column">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-weight-semibold">Quick Links</div>
+                    </div>
+                    <div class="footer1_link-list">
+                      <a href="index.html" class="footer1_link">Home Page</a>
+                      <a href="about-us.html" class="footer1_link">About Us</a>
+                      <a href="contact-page.html" class="footer1_link">Contact Us</a>
+                    </div>
+                  </div>
+                  <div class="footer1_link-column">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-weight-semibold">Follow Us</div>
+                    </div>
+                    <div class="footer1_link-list">
+                      <a href="#" class="footer1_link">Facebook Page</a>
+                      <a href="#" class="footer1_link">Instagram Feed</a>
+                      <a href="#" class="footer1_link">Twitter Profile</a>
+                      <a href="https://www.linkedin.com/company/ravencorex/" target="_blank" class="footer1_link">LinkedIn Page</a>
+                      <a href="#" class="footer1_link">YouTube Channel</a>
+                    </div>
+                  </div>
+                  <div class="footer1_link-column">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-weight-semibold">Legal Links</div>
+                    </div>
+                    <div class="footer1_link-list">
+                      <a href="#" class="footer1_social-link w-inline-block">
+                        <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 12.0611C22 6.50451 17.5229 2 12 2C6.47715 2 2 6.50451 2 12.0611C2 17.0828 5.65684 21.2452 10.4375 22V14.9694H7.89844V12.0611H10.4375V9.84452C10.4375 7.32296 11.9305 5.93012 14.2146 5.93012C15.3088 5.93012 16.4531 6.12663 16.4531 6.12663V8.60261H15.1922C13.95 8.60261 13.5625 9.37822 13.5625 10.1739V12.0611H16.3359L15.8926 14.9694H13.5625V22C18.3432 21.2452 22 17.083 22 12.0611Z" fill="CurrentColor"></path>
+                          </svg></div>
+                        <div>Facebook</div>
+                      </a>
+                      <a href="#" class="footer1_social-link w-inline-block">
+                        <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3ZM19.25 16C19.2445 17.7926 17.7926 19.2445 16 19.25H8C6.20735 19.2445 4.75549 17.7926 4.75 16V8C4.75549 6.20735 6.20735 4.75549 8 4.75H16C17.7926 4.75549 19.2445 6.20735 19.25 8V16ZM16.75 8.25C17.3023 8.25 17.75 7.80228 17.75 7.25C17.75 6.69772 17.3023 6.25 16.75 6.25C16.1977 6.25 15.75 6.69772 15.75 7.25C15.75 7.80228 16.1977 8.25 16.75 8.25ZM12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5027 10.8057 16.0294 9.65957 15.1849 8.81508C14.3404 7.97059 13.1943 7.49734 12 7.5ZM9.25 12C9.25 13.5188 10.4812 14.75 12 14.75C13.5188 14.75 14.75 13.5188 14.75 12C14.75 10.4812 13.5188 9.25 12 9.25C10.4812 9.25 9.25 10.4812 9.25 12Z" fill="CurrentColor"></path>
+                          </svg></div>
+                        <div>Instagram</div>
+                      </a>
+                      <a href="#" class="footer1_social-link w-inline-block">
+                        <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.1761 4H19.9362L13.9061 10.7774L21 20H15.4456L11.0951 14.4066L6.11723 20H3.35544L9.80517 12.7508L3 4H8.69545L12.6279 9.11262L17.1761 4ZM16.2073 18.3754H17.7368L7.86441 5.53928H6.2232L16.2073 18.3754Z" fill="CurrentColor"></path>
+                          </svg></div>
+                        <div>Twitter</div>
+                      </a>
+                      <a href="https://www.linkedin.com/company/ravencorex/" target="_blank" class="footer1_social-link w-inline-block">
+                        <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 3C3.67157 3 3 3.67157 3 4.5V19.5C3 20.3284 3.67157 21 4.5 21H19.5C20.3284 21 21 20.3284 21 19.5V4.5C21 3.67157 20.3284 3 19.5 3H4.5ZM8.52076 7.00272C8.52639 7.95897 7.81061 8.54819 6.96123 8.54397C6.16107 8.53975 5.46357 7.90272 5.46779 7.00413C5.47201 6.15897 6.13998 5.47975 7.00764 5.49944C7.88795 5.51913 8.52639 6.1646 8.52076 7.00272ZM12.2797 9.76176H9.75971H9.7583V18.3216H12.4217V18.1219C12.4217 17.742 12.4214 17.362 12.4211 16.9819V16.9818V16.9816V16.9815V16.9812C12.4203 15.9674 12.4194 14.9532 12.4246 13.9397C12.426 13.6936 12.4372 13.4377 12.5005 13.2028C12.7381 12.3253 13.5271 11.7586 14.4074 11.8979C14.9727 11.9864 15.3467 12.3141 15.5042 12.8471C15.6013 13.1803 15.6449 13.5389 15.6491 13.8863C15.6605 14.9339 15.6589 15.9815 15.6573 17.0292V17.0294C15.6567 17.3992 15.6561 17.769 15.6561 18.1388V18.3202H18.328V18.1149C18.328 17.6629 18.3278 17.211 18.3275 16.7591V16.759V16.7588C18.327 15.6293 18.3264 14.5001 18.3294 13.3702C18.3308 12.8597 18.276 12.3563 18.1508 11.8627C17.9638 11.1286 17.5771 10.5211 16.9485 10.0824C16.5027 9.77019 16.0133 9.5691 15.4663 9.5466C15.404 9.54401 15.3412 9.54062 15.2781 9.53721L15.2781 9.53721L15.2781 9.53721C14.9984 9.52209 14.7141 9.50673 14.4467 9.56066C13.6817 9.71394 13.0096 10.0641 12.5019 10.6814C12.4429 10.7522 12.3852 10.8241 12.2991 10.9314L12.2991 10.9315L12.2797 10.9557V9.76176ZM5.68164 18.3244H8.33242V9.76733H5.68164V18.3244Z" fill="CurrentColor"></path>
+                          </svg></div>
+                        <div>LinkedIn</div>
+                      </a>
+                      <a href="#" class="footer1_social-link w-inline-block">
+                        <div class="icon-embed-xsmall w-embed"><svg width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5686 4.77345C21.5163 5.02692 22.2555 5.76903 22.5118 6.71673C23.1821 9.42042 23.1385 14.5321 22.5259 17.278C22.2724 18.2257 21.5303 18.965 20.5826 19.2213C17.9071 19.8831 5.92356 19.8015 3.40294 19.2213C2.45524 18.9678 1.71595 18.2257 1.45966 17.278C0.827391 14.7011 0.871044 9.25144 1.44558 6.73081C1.69905 5.78311 2.44116 5.04382 3.38886 4.78753C6.96561 4.0412 19.2956 4.282 20.5686 4.77345ZM9.86682 8.70227L15.6122 11.9974L9.86682 15.2925V8.70227Z" fill="CurrentColor"></path>
+                          </svg></div>
+                        <div>YouTube</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divider-horizontal"></div>
+            <div class="padding-top padding-medium">
+              <div class="footer1_bottom-wrapper">
+                <div class="footer1_credit-text">© 2025 RavencoreX. All rights reserved.</div>
+                <div class="w-layout-grid footer1_legal-list">
+                  <a href="#" class="footer1_legal-link">Privacy Policy</a>
+                  <a href="#" class="footer1_legal-link">Terms of Use</a>
+                  <a href="#" class="footer1_legal-link">Cookie Settings</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=684c45259bb9859b41a66eec" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+</body>
+</html>
