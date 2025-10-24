@@ -1,0 +1,59 @@
+/* Footer Dark Theme - Reutilizable en todas las páginas */
+/* Created: 2025 | RavencoreX */
+
+.footer1_component {
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%) !important;
+  color: white !important;
+}
+
+.footer1_component * {
+  color: white !important;
+}
+
+.footer1_component .footer1_link,
+.footer1_component .footer1_social-link,
+.footer1_component .footer1_legal-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: color 0.3s ease;
+}
+
+.footer1_component .footer1_link:hover,
+.footer1_component .footer1_social-link:hover,
+.footer1_component .footer1_legal-link:hover {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.footer1_component .divider-horizontal {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.footer1_component .form_input {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+}
+
+.footer1_component .form_input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.footer1_component .form_input:focus {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  outline: none;
+}
+
+.footer1_component .text-size-tiny {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.footer1_component .button.is-secondary {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.footer1_component .button.is-secondary:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}

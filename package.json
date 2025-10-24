@@ -1,0 +1,30 @@
+{
+  "name": "ravencorex-website",
+  "version": "2.0.0",
+  "description": "RavencoreX website - Cloud, Data & Ecommerce Solutions",
+  "main": "index.html",
+  "scripts": {
+    "dev": "pnpm exec browser-sync start --server --files '**/*.html, **/*.css, **/*.js' --no-notify --port 8080",
+    "dev:old": "pnpm exec http-server -p 8080 -c-1 -o",
+    "start": "pnpm exec http-server -p 8080 -c-1",
+    "preview": "pnpm exec http-server -p 3000 -c-1 -o"
+  },
+  "keywords": [
+    "ravencorex",
+    "cloud",
+    "data-analytics",
+    "ecommerce",
+    "business-intelligence"
+  ],
+  "author": "RavencoreX",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
