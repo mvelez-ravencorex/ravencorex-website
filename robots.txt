@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://ravencorex.com/sitemap.xml
