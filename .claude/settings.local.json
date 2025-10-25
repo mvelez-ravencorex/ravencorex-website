@@ -14,7 +14,13 @@
       "Bash(cat:*)",
       "Bash(git log:*)",
       "Bash(git config:*)",
-      "Bash(ssh:*)"
+      "Bash(ssh:*)",
+      "Bash(for file in index.html about-us.html cloud-solutions-devops.html data-analytics-business-intelligence.html ecommerce-development-optimization.html web-design.html contact-page.html)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(done)",
+      "Bash(do)",
+      "Bash(python3:*)",
+      "Bash(git lfs:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "Home": "Inicio",
+    "About Us": "Nosotros",
+    "Cloud Computing": "Cloud Computing",
+    "Business Intelligence": "Business Intelligence",
+    "Ecommerce": "E-commerce",
+    "Web Design": "Diseño Web",
+    "Let's Talk": "Hablemos"
+  },
+  "hero": {
+    "Turning Data into Real Business Advantage with Google Cloud & Looker BI": "Convertimos Datos en Ventaja Competitiva Real con Google Cloud & Looker BI",
+    "We build cloud data pipelines and BI ecosystems powered by Google Cloud and Looker — designed for scale, speed, and clarity.": "Construimos pipelines de datos en la nube y ecosistemas BI potenciados por Google Cloud y Looker — diseñados para escala, velocidad y claridad.",
+    "Request Free Audit": "Solicitar Auditoría Gratuita",
+    "See Our Work": "Ver Nuestro Trabajo"
+  },
+  "services": {
+    "Our Services": "Nuestros Servicios",
+    "What We Do": "Lo Que Hacemos",
+    "Cloud Solutions & DevOps": "Soluciones Cloud & DevOps",
+    "Build scalable cloud infrastructure": "Construimos infraestructura cloud escalable",
+    "Business Intelligence & Analytics": "Business Intelligence & Análisis",
+    "Transform data into actionable insights": "Transformamos datos en insights accionables",
+    "E-Commerce Analytics": "Análisis E-Commerce",
+    "Unified analytics for online stores": "Análisis unificado para tiendas online",
+    "Web Design & Development": "Diseño & Desarrollo Web",
+    "High-performance websites that convert": "Sitios web de alto rendimiento que convierten",
+    "Learn More": "Conocer Más",
+    "Get Started": "Comenzar"
+  },
+  "cta": {
+    "Ready to transform your data?": "¿Listo para transformar tus datos?",
+    "Book a 30-minute strategy call": "Reservá una llamada estratégica de 30 minutos",
+    "Book Strategy Call": "Reservar Llamada Estratégica",
+    "Request Quote": "Solicitar Cotización",
+    "Contact Us": "Contactanos"
+  },
+  "footer": {
+    "Subscribe to our newsletter for the latest updates on features and releases.": "Suscribite a nuestro newsletter para recibir las últimas novedades sobre funcionalidades y lanzamientos.",
+    "Your Email Here": "Tu Email Aquí",
+    "Join": "Unirse",
+    "By subscribing, you agree to our Privacy Policy and consent to receive updates.": "Al suscribirte, aceptás nuestra Política de Privacidad y consentís recibir actualizaciones.",
+    "Thank you! We have received your submission.": "¡Gracias! Recibimos tu solicitud.",
+    "Oops! There was an error submitting the form.": "¡Ups! Hubo un error al enviar el formulario.",
+    "Quick Links": "Links Rápidos",
+    "Home Page": "Página Principal",
+    "About Us": "Nosotros",
+    "Contact Us": "Contacto",
+    "Follow Us": "Seguinos",
+    "Facebook Page": "Página de Facebook",
+    "Instagram Feed": "Feed de Instagram",
+    "Twitter Profile": "Perfil de Twitter",
+    "LinkedIn Page": "Página de LinkedIn",
+    "YouTube Channel": "Canal de YouTube",
+    "Legal Links": "Links Legales",
+    "Privacy Policy": "Política de Privacidad",
+    "Terms of Use": "Términos de Uso",
+    "Cookie Settings": "Configuración de Cookies",
+    "© 2025 RavencoreX. All rights reserved.": "© 2025 RavencoreX. Todos los derechos reservados."
+  },
+  "pages": {
+    "index.html": {
+      "title": "RavencoreX | Pipelines de Datos en la Nube & Soluciones Looker BI | Expertos en Google Cloud",
+      "description": "Construimos pipelines de datos en la nube y ecosistemas BI en Google Cloud y Looker. Optimización BigQuery, gobernanza LookML y análisis escalables."
+    },
+    "about-us.html": {
+      "title": "Acerca de RavencoreX | Expertos en Ingeniería de Datos & Cloud | Google Cloud & Looker",
+      "description": "Expertos en ingeniería de datos y cloud especializados en Google Cloud & Looker. 20+ años escalando análisis de datos crudos a decisiones de negocio."
+    },
+    "cloud-solutions-devops.html": {
+      "title": "Soluciones Cloud & DevOps | Infraestructura Escalable por RavencoreX",
+      "description": "Construí, escalá y automatizá con las Soluciones Cloud de RavencoreX. Nuestros servicios DevOps entregan infraestructura segura, pipelines CI/CD y despliegues cloud inteligentes."
+    },
+    "data-analytics-business-intelligence.html": {
+      "title": "Análisis de Datos & Soluciones de Business Intelligence | RavencoreX",
+      "description": "Automatizá tus reportes y obté insights con RavencoreX. Construimos soluciones de análisis de datos usando Looker y Google Cloud, adaptadas para e-commerce y crecimiento."
+    },
+    "ecommerce-development-optimization.html": {
+      "title": "Análisis E-Commerce & Automatización | Crecimiento Basado en Datos | RavencoreX",
+      "description": "Transformá tu e-commerce con análisis unificado. Integramos Shopify, GA4 y Meta Ads en BigQuery para dashboards en tiempo real que impulsan las ventas."
+    },
+    "web-design.html": {
+      "title": "Sitios Web Modernos que Convierten | Diseño Web de Alto Rendimiento | RavencoreX",
+      "description": "Diseñamos y construimos sitios web de alto rendimiento con UX limpia, velocidad y mejores prácticas SEO. Diseño web moderno que convierte visitantes en clientes."
+    },
+    "contact-page.html": {
+      "title": "Contactá a RavencoreX | Construyamos Tu Próxima Solución",
+      "description": "Ponete en contacto con RavencoreX. Estamos listos para ayudarte con soluciones de cloud computing, análisis de datos, e-commerce y desarrollo web."
+    }
+  }
+}

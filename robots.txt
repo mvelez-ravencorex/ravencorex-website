@@ -1,4 +1,18 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /404.html
+Disallow: /401.html
+Disallow: /style-guide-*
 
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://ravencorex.com/sitemap.xml
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
